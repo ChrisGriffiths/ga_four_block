@@ -203,6 +203,7 @@ left join session_facts sf
   on  se.sl_key = sf.sl_key
 left join device_geo d
   on  se.sl_key = d.sl_key
+WHERE sf.session_event_count < 10000
    ;;
   }
 
