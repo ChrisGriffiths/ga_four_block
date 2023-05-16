@@ -466,7 +466,7 @@ extends: [event_funnel, page_funnel]
 
       -- PAID SEARCH
       when ${session_attribution_source} IN (
-          '360.cn','alice','aol','ar.search.yahoo.com','ask','at.search.yahoo.com','au.search.yahoo.com','auone','avg',
+          '360.cn','alice','adwords','aol','ar.search.yahoo.com','ask','at.search.yahoo.com','au.search.yahoo.com','auone','avg',
           'babylon','baidu','biglobe','biglobe.co.jp','biglobe.ne.jp','bing','br.search.yahoo.com','ca.search.yahoo.com',
           'centrum.cz','ch.search.yahoo.com','cl.search.yahoo.com','cn.bing.com','cnn','co.search.yahoo.com','comcast',
           'conduit','cse.google.com','daum','daum.net','de.search.yahoo.com','dk.search.yahoo.com','dogpile','dogpile.com',
